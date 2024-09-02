@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import September.Find_the_Student_that_Will_Replace_the_Chalk;
 
 public class Main {
     public static void main(String[] args) {
@@ -61,7 +61,7 @@ public class Main {
 //            System.out.println(c.countSubIslands(grids[i], grids[i+1]));
 //        }
 
-//        Convert_1D_Array_Into_2D_Array convert = new Convert_1D_Array_Into_2D_Array();
+//        September.Convert_1D_Array_Into_2D_Array convert = new September.Convert_1D_Array_Into_2D_Array();
 //        int[][][] n = {
 //                {
 //                    {1,2,3,4}, {2}, {2}
@@ -78,8 +78,8 @@ public class Main {
 //                }
 //        };
 //        convert.driver(n);
-
-
-
+        Find_the_Student_that_Will_Replace_the_Chalk f = new Find_the_Student_that_Will_Replace_the_Chalk();
+        int[][] n = {{100000, 1, 100000, 1, 100000, 1, 100000, 1, 100000, 1}, {500000}, {5, 1, 5}, {22}, {3, 4, 1, 2}, {25}, {100000, 1, 100000, 1, 100000, 1, 100000, 1, 100000, 1}, {500000}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1000000000}, {7, 7, 3, 9, 2}, {14}, {1}, {1000000000}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {10}, {1, 2, 3, 4, 5, 6, 7, 8, 9}, {45}};
+        f.driver(n);
     }
 }
