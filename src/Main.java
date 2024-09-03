@@ -1,4 +1,5 @@
 import September.Find_the_Student_that_Will_Replace_the_Chalk;
+import September.Sum_of_Digits_of_String_After_Convert;
 
 public class Main {
     public static void main(String[] args) {
@@ -78,8 +79,12 @@ public class Main {
 //                }
 //        };
 //        convert.driver(n);
-        Find_the_Student_that_Will_Replace_the_Chalk f = new Find_the_Student_that_Will_Replace_the_Chalk();
-        int[][] n = {{100000, 1, 100000, 1, 100000, 1, 100000, 1, 100000, 1}, {500000}, {5, 1, 5}, {22}, {3, 4, 1, 2}, {25}, {100000, 1, 100000, 1, 100000, 1, 100000, 1, 100000, 1}, {500000}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1000000000}, {7, 7, 3, 9, 2}, {14}, {1}, {1000000000}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {10}, {1, 2, 3, 4, 5, 6, 7, 8, 9}, {45}};
-        f.driver(n);
+//        Find_the_Student_that_Will_Replace_the_Chalk f = new Find_the_Student_that_Will_Replace_the_Chalk();
+//        int[][] n = {{100000, 1, 100000, 1, 100000, 1, 100000, 1, 100000, 1}, {500000}, {5, 1, 5}, {22}, {3, 4, 1, 2}, {25}, {100000, 1, 100000, 1, 100000, 1, 100000, 1, 100000, 1}, {500000}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1000000000}, {7, 7, 3, 9, 2}, {14}, {1}, {1000000000}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {10}, {1, 2, 3, 4, 5, 6, 7, 8, 9}, {45}};
+//        f.driver(n);
+
+        Sum_of_Digits_of_String_After_Convert sum = new Sum_of_Digits_of_String_After_Convert();
+        String[] s = {"iiii", "1", "leetcode", "2", "zbax", "2", "hvmhoasabaymnmsd", "1", "dbvmfhnttvr", "2", "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss", "1", "sssssswwsssssrrrrrrrrrttttttttttttttttttttttttttttttttttttttttttttttrrrrrrrrrrrrrrrrrrssssssssssssss", "10", "abcdefghijklmnopqrstuvwxyz", "5"};
+        sum.driver(s);
     }
 }
