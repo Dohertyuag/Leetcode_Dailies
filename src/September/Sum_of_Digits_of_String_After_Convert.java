@@ -45,32 +45,32 @@ s consists of lowercase English letters.
  */
 public class Sum_of_Digits_of_String_After_Convert {
     public int getLucky(String s, int k) {
-        String new_s = convertStringToIntegerString(s);
-
-        System.out.println("new_s: " + new_s + "\tk: " + k);
         int sum = 0;
-        for(int i=0; i<k; i++) {
+        for (char c : s.toCharArray()) {
+            int temp = c - 96;
+            sum = sum + (temp % 10);
+            temp = temp / 10;
+            sum = sum + temp;
+        }
+        k = k - 1;
+
+        while (k > 0) {
+            int temp = sum;
             sum = 0;
-            for(char c : new_s.toCharArray()) {
-                int temp = Integer.parseInt(String.valueOf(c));
-                sum += temp;
+            while (temp != 0) {
+                sum += temp % 10;
+                temp = temp / 10;
             }
-            new_s = String.valueOf(sum);
+            k--;
         }
         System.out.println("Sum: " + sum);
         return sum;
     }
-    private String convertStringToIntegerString(String s){
-        String new_s = new String();
-        for(Character c : s.toCharArray()) {
-            int temp = c;
-            new_s += temp - 96;
-        }
-        return new_s;
-    }
-    public void driver(String[] str){
+
+
+    public void driver(String[] str) {
         System.out.println(Arrays.toString(str));
-        for(int i=0;i<str.length;i++){
+        for (int i = 0; i < str.length; i++) {
             getLucky(str[i], Integer.parseInt(str[++i]));
         }
     }
