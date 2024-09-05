@@ -1,3 +1,4 @@
+import September.Find_Missing_Observations;
 import September.Find_the_Student_that_Will_Replace_the_Chalk;
 import September.Sum_of_Digits_of_String_After_Convert;
 
@@ -83,8 +84,12 @@ public class Main {
 //        int[][] n = {{100000, 1, 100000, 1, 100000, 1, 100000, 1, 100000, 1}, {500000}, {5, 1, 5}, {22}, {3, 4, 1, 2}, {25}, {100000, 1, 100000, 1, 100000, 1, 100000, 1, 100000, 1}, {500000}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1000000000}, {7, 7, 3, 9, 2}, {14}, {1}, {1000000000}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {10}, {1, 2, 3, 4, 5, 6, 7, 8, 9}, {45}};
 //        f.driver(n);
 
-        Sum_of_Digits_of_String_After_Convert sum = new Sum_of_Digits_of_String_After_Convert();
-        String[] s = {"iiii", "1", "leetcode", "2", "zbax", "2", "hvmhoasabaymnmsd", "1", "dbvmfhnttvr", "2", "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss", "1", "sssssswwsssssrrrrrrrrrttttttttttttttttttttttttttttttttttttttttttttttrrrrrrrrrrrrrrrrrrssssssssssssss", "10", "abcdefghijklmnopqrstuvwxyz", "5"};
-        sum.driver(s);
+//        Sum_of_Digits_of_String_After_Convert sum = new Sum_of_Digits_of_String_After_Convert();
+//        String[] s = {"iiii", "1", "leetcode", "2", "zbax", "2", "hvmhoasabaymnmsd", "1", "dbvmfhnttvr", "2", "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss", "1", "sssssswwsssssrrrrrrrrrttttttttttttttttttttttttttttttttttttttttttttttrrrrrrrrrrrrrrrrrrssssssssssssss", "10", "abcdefghijklmnopqrstuvwxyz", "5"};
+//        sum.driver(s);
+
+        Find_Missing_Observations findMissingObservations = new Find_Missing_Observations();
+        int[][] n = {{3, 2, 4, 3}, {4}, {2}, {1, 5, 6}, {4}, {3}, {1, 2, 3, 4}, {6}, {4}, {3, 2, 4, 3}, {5}, {54356}, {1, 5, 6}, {2}, {36575}, {6, 3, 4, 3, 5, 3}, {1}, {6}, {4, 2, 2, 5, 4, 5, 4, 5, 3, 3, 6, 1, 2, 4, 2, 1, 6, 5, 4, 2, 3, 4, 2, 3, 3, 5, 4, 1, 4, 4, 5, 3, 6, 1, 5, 2, 3, 3, 6, 1, 6, 4, 1, 3}, {2}, {53}, {1, 3, 5, 2, 6, 4, 3, 2, 5, 1, 6, 4, 2, 3, 5, 1, 4, 6, 2, 5, 3, 6, 1, 4, 5}, {4}, {100000}};
+        findMissingObservations.driver(n);
     }
 }
