@@ -37,15 +37,15 @@ public class Uncommon_Words_from_Two_Sentences {
         String[] s2 = string2.split(" ");
 
 
-        for(String str : s1) {
+        for (String str : s1) {
             string_map.put(str, string_map.getOrDefault(str, 0) + 1);
         }
-        for(String str : s2) {
+        for (String str : s2) {
             string_map.put(str, string_map.getOrDefault(str, 0) + 1);
         }
         ArrayList<String> res = new ArrayList<>();
-        for(String str : string_map.keySet()) {
-            if(string_map.get(str) == 1) {
+        for (String str : string_map.keySet()) {
+            if (string_map.get(str) == 1) {
                 res.add(str);
             }
         }
@@ -53,10 +53,10 @@ public class Uncommon_Words_from_Two_Sentences {
         return res.toArray(new String[0]);
     }
 
-    public void driver(){
-        String[] strings = {"this apple is sweet","this apple is sour","apple apple","banana"};
-        for(int i = 0; i < strings.length; i+=2){
-            uncommonFromSentences(strings[i], strings[i+1]);
+    public void driver() {
+        String[] strings = {"this apple is sweet", "this apple is sour", "apple apple", "banana"};
+        for (int i = 0; i < strings.length; i += 2) {
+            uncommonFromSentences(strings[i], strings[i + 1]);
         }
 
     }
