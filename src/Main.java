@@ -69,7 +69,12 @@ public class Main {
 
         //Minimum_Bit_Flips_to_Convert_Number minimumBitFlips = new Minimum_Bit_Flips_to_Convert_Number();
         //minimumBitFlips.driver();
-        Xor_queries_of_A_Subarray xorQueriesOfASubarray = new Xor_queries_of_A_Subarray();
-        xorQueriesOfASubarray.driver();
+
+        //Xor_queries_of_A_Subarray xorQueriesOfASubarray = new Xor_queries_of_A_Subarray();
+        //xorQueriesOfASubarray.driver();
+
+        Uncommon_Words_from_Two_Sentences uncommon = new Uncommon_Words_from_Two_Sentences();
+        uncommon.driver();
+
     }
 }
