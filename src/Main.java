@@ -79,8 +79,11 @@ public class Main {
 //        Largest_Number l = new Largest_Number();
 //        l.driver();
 
-        Different_Ways_To_Add_Parenthesis differentWaysToAddParenthesis = new Different_Ways_To_Add_Parenthesis();
-        differentWaysToAddParenthesis.driver();
+//        Different_Ways_To_Add_Parenthesis differentWaysToAddParenthesis = new Different_Ways_To_Add_Parenthesis();
+//        differentWaysToAddParenthesis.driver();
+
+        Shortest_Palindrome shortestPalindrome = new Shortest_Palindrome();
+        shortestPalindrome.driver();
 
     }
 }
