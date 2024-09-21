@@ -82,8 +82,11 @@ public class Main {
 //        Different_Ways_To_Add_Parenthesis differentWaysToAddParenthesis = new Different_Ways_To_Add_Parenthesis();
 //        differentWaysToAddParenthesis.driver();
 
-        Shortest_Palindrome shortestPalindrome = new Shortest_Palindrome();
-        shortestPalindrome.driver();
+//        Shortest_Palindrome shortestPalindrome = new Shortest_Palindrome();
+//        shortestPalindrome.driver();
+
+        Lexicographical_Numbers lex = new Lexicographical_Numbers();
+        lex.driver();
 
     }
 }
