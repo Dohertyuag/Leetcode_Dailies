@@ -41,32 +41,26 @@ Constraints:
  */
 public class Find_the_Length_of_the_Longest_Common_Prefix {
     public int longestCommonPrefix(int[] arr1, int[] arr2) {
-        Set<String> str1 = new HashSet<String>();
-        for (int n : arr1) {
-            String str_num = Integer.toString(n);
-            String prefix = "";
-            for (char c : str_num.toCharArray()) {
-                prefix += c;
-                str1.add(prefix);
-            }
-        }
-        System.out.println("arr1: " + Arrays.toString(arr1) + "\tarr2: " + Arrays.toString(arr2));
-        System.out.println("str1: " + str1);
         int max = 0;
-
-        for (int n : arr2) {
-            String str_num = Integer.toString(n);
-            String prefix = "";
-            for (char c : str_num.toCharArray()) {
-                prefix += c;
-                if (str1.contains(prefix)) {
-                    max = Math.max(max, prefix.length());
-                }
+        for (int i = 0; i < arr1.length; i++) {
+            for (int j = 0; j < arr2.length; j++) {
+                String str1 = String.valueOf(arr1[i]);
+                String str2 = String.valueOf(arr2[j]);
+                int res = getPrefixLengths(str1, str2);
+                max = Math.max(res, max);
             }
         }
-
-
         return max;
+    }
+
+    private int getPrefixLengths(String str1, String str2) {
+        int n = Math.min(str1.length(), str2.length());
+        for (int i = 0; i < n; i++) {
+            if (str1.charAt(i) != str2.charAt(i)) {
+                return i;
+            }
+        }
+        return n;
     }
 
     public void driver() {
