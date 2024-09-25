@@ -88,8 +88,11 @@ public class Main {
 //        Lexicographical_Numbers lex = new Lexicographical_Numbers();
 //        lex.driver();
 
-        Find_the_Length_of_the_Longest_Common_Prefix find = new Find_the_Length_of_the_Longest_Common_Prefix();
-        find.driver();
+//        Find_the_Length_of_the_Longest_Common_Prefix find = new Find_the_Length_of_the_Longest_Common_Prefix();
+//        find.driver();
+
+        Sum_of_Prefix_Scores_of_Strings sum = new Sum_of_Prefix_Scores_of_Strings();
+        sum.driver();
 
     }
 }
