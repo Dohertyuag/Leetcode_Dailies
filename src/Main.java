@@ -1,5 +1,5 @@
 import September.*;
-
+import October.*;
 public class Main {
     public static void main(String[] args) {
 //        ugly_numbers uglyNumbers = new ugly_numbers();
@@ -91,8 +91,12 @@ public class Main {
 //        Find_the_Length_of_the_Longest_Common_Prefix find = new Find_the_Length_of_the_Longest_Common_Prefix();
 //        find.driver();
 
-        Sum_of_Prefix_Scores_of_Strings sum = new Sum_of_Prefix_Scores_of_Strings();
-        sum.driver();
+//        Sum_of_Prefix_Scores_of_Strings sum = new Sum_of_Prefix_Scores_of_Strings();
+//        sum.driver();
+
+        Check_If_Array_Pairs_Are_Divisible_by_k checkIfArrayPairsAreDivisibleByK = new Check_If_Array_Pairs_Are_Divisible_by_k();
+        checkIfArrayPairsAreDivisibleByK.driver();
+
 
     }
 }
