@@ -94,9 +94,11 @@ public class Main {
 //        Sum_of_Prefix_Scores_of_Strings sum = new Sum_of_Prefix_Scores_of_Strings();
 //        sum.driver();
 
-        Check_If_Array_Pairs_Are_Divisible_by_k checkIfArrayPairsAreDivisibleByK = new Check_If_Array_Pairs_Are_Divisible_by_k();
-        checkIfArrayPairsAreDivisibleByK.driver();
+//        Check_If_Array_Pairs_Are_Divisible_by_k checkIfArrayPairsAreDivisibleByK = new Check_If_Array_Pairs_Are_Divisible_by_k();
+//        checkIfArrayPairsAreDivisibleByK.driver();
 
+        Rank_Transform_of_an_Array rankTransformOfAnArray = new Rank_Transform_of_an_Array();
+        rankTransformOfAnArray.driver();
 
     }
 }
