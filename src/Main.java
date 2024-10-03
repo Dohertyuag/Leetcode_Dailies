@@ -97,8 +97,10 @@ public class Main {
 //        Check_If_Array_Pairs_Are_Divisible_by_k checkIfArrayPairsAreDivisibleByK = new Check_If_Array_Pairs_Are_Divisible_by_k();
 //        checkIfArrayPairsAreDivisibleByK.driver();
 
-        Rank_Transform_of_an_Array rankTransformOfAnArray = new Rank_Transform_of_an_Array();
-        rankTransformOfAnArray.driver();
+//        Rank_Transform_of_an_Array rankTransformOfAnArray = new Rank_Transform_of_an_Array();
+//        rankTransformOfAnArray.driver();
 
+        Make_Sum_Divisible_by_P makeSumDivisibleByP = new Make_Sum_Divisible_by_P();
+        makeSumDivisibleByP.driver();
     }
 }
