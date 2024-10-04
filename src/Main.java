@@ -100,7 +100,10 @@ public class Main {
 //        Rank_Transform_of_an_Array rankTransformOfAnArray = new Rank_Transform_of_an_Array();
 //        rankTransformOfAnArray.driver();
 
-        Make_Sum_Divisible_by_P makeSumDivisibleByP = new Make_Sum_Divisible_by_P();
-        makeSumDivisibleByP.driver();
+//        Make_Sum_Divisible_by_P makeSumDivisibleByP = new Make_Sum_Divisible_by_P();
+//        makeSumDivisibleByP.driver();
+
+        Divide_Players_Into_Teams_of_Equal_Skill dividePlayersIntoTeamsOfEqualSkill = new Divide_Players_Into_Teams_of_Equal_Skill();
+        dividePlayersIntoTeamsOfEqualSkill.driver();
     }
 }
