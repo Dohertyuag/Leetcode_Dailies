@@ -103,7 +103,10 @@ public class Main {
 //        Make_Sum_Divisible_by_P makeSumDivisibleByP = new Make_Sum_Divisible_by_P();
 //        makeSumDivisibleByP.driver();
 
-        Divide_Players_Into_Teams_of_Equal_Skill dividePlayersIntoTeamsOfEqualSkill = new Divide_Players_Into_Teams_of_Equal_Skill();
-        dividePlayersIntoTeamsOfEqualSkill.driver();
+//        Divide_Players_Into_Teams_of_Equal_Skill dividePlayersIntoTeamsOfEqualSkill = new Divide_Players_Into_Teams_of_Equal_Skill();
+//        dividePlayersIntoTeamsOfEqualSkill.driver();
+
+        Permutation_in_String perm = new Permutation_in_String();
+        perm.driver();
     }
 }
