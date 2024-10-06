@@ -106,7 +106,10 @@ public class Main {
 //        Divide_Players_Into_Teams_of_Equal_Skill dividePlayersIntoTeamsOfEqualSkill = new Divide_Players_Into_Teams_of_Equal_Skill();
 //        dividePlayersIntoTeamsOfEqualSkill.driver();
 
-        Permutation_in_String perm = new Permutation_in_String();
-        perm.driver();
+//        Permutation_in_String perm = new Permutation_in_String();
+//        perm.driver();
+
+        Sentence_Similarity_III sim = new Sentence_Similarity_III();
+        sim.driver();
     }
 }
