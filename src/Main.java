@@ -109,7 +109,10 @@ public class Main {
 //        Permutation_in_String perm = new Permutation_in_String();
 //        perm.driver();
 
-        Sentence_Similarity_III sim = new Sentence_Similarity_III();
-        sim.driver();
+//        Sentence_Similarity_III sim = new Sentence_Similarity_III();
+//        sim.driver();
+
+        Minimum_String_Length_After_Removing_Substrings minimumStringLengthAfterRemovingSubstrings = new Minimum_String_Length_After_Removing_Substrings();
+        minimumStringLengthAfterRemovingSubstrings.driver();
     }
 }
