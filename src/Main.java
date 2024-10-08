@@ -112,7 +112,10 @@ public class Main {
 //        Sentence_Similarity_III sim = new Sentence_Similarity_III();
 //        sim.driver();
 
-        Minimum_String_Length_After_Removing_Substrings minimumStringLengthAfterRemovingSubstrings = new Minimum_String_Length_After_Removing_Substrings();
-        minimumStringLengthAfterRemovingSubstrings.driver();
+//        Minimum_String_Length_After_Removing_Substrings minimumStringLengthAfterRemovingSubstrings = new Minimum_String_Length_After_Removing_Substrings();
+//        minimumStringLengthAfterRemovingSubstrings.driver();
+
+        Minimum_Number_of_Swaps_to_Make_the_String_Balanced minimumNumberOfSwapsToMakeTheStringBalanced = new Minimum_Number_of_Swaps_to_Make_the_String_Balanced();
+        minimumNumberOfSwapsToMakeTheStringBalanced.driver();
     }
 }
