@@ -1,5 +1,7 @@
 package October;
 
+import java.util.Stack;
+
 /*
 A parentheses string is valid if and only if:
 
@@ -28,25 +30,23 @@ s[i] is either '(' or ')'.
  */
 public class Minimum_Add_to_Make_Parentheses_Valid {
     public int minAddToMakeValid(String s) {
-        int n = s.length();
         System.out.println("str: " + s);
 
-        int openingParenthesis = 0;
-        int closingParenthesis = 0;
+        Stack<Character> stack = new Stack<>();
 
-        for(int i = 0; i < n; i++) {
-            if(s.charAt(i) == '(') {
-                openingParenthesis++;
+        for(char c : s.toCharArray()) {
+            if(stack.isEmpty() || c == '('){
+                stack.push(c);
             }
-            else if(s.charAt(i) == ')' && openingParenthesis > 0 ) {
-                openingParenthesis--;
+            else if(c == ')' && stack.peek() == '(') {
+                stack.pop();
             }
-            else{
-                closingParenthesis++;
+            else {
+                stack.push(c);
             }
         }
-
-        return openingParenthesis + closingParenthesis;
+        System.out.println("stack: " + stack);
+        return stack.size();
     }
 
     public void driver() {
