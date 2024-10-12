@@ -124,7 +124,10 @@ public class Main {
 //        Maximum_Width_Ramp maximumWidthRamp = new Maximum_Width_Ramp();
 //        maximumWidthRamp.driver();
 
-        The_Number_of_the_Smallest_Unoccupied_Chair theNumberOfTheSmallestUnoccupiedChair = new The_Number_of_the_Smallest_Unoccupied_Chair();
-        theNumberOfTheSmallestUnoccupiedChair.driver();
+//        The_Number_of_the_Smallest_Unoccupied_Chair theNumberOfTheSmallestUnoccupiedChair = new The_Number_of_the_Smallest_Unoccupied_Chair();
+//        theNumberOfTheSmallestUnoccupiedChair.driver();
+
+        Divide_Intervals_Into_Minimum_Number_of_Groups divideIntervalsIntoMinimumNumberOfGroups = new Divide_Intervals_Into_Minimum_Number_of_Groups();
+        divideIntervalsIntoMinimumNumberOfGroups.driver();
     }
 }
