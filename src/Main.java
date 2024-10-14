@@ -127,7 +127,10 @@ public class Main {
 //        The_Number_of_the_Smallest_Unoccupied_Chair theNumberOfTheSmallestUnoccupiedChair = new The_Number_of_the_Smallest_Unoccupied_Chair();
 //        theNumberOfTheSmallestUnoccupiedChair.driver();
 
-        Divide_Intervals_Into_Minimum_Number_of_Groups divideIntervalsIntoMinimumNumberOfGroups = new Divide_Intervals_Into_Minimum_Number_of_Groups();
-        divideIntervalsIntoMinimumNumberOfGroups.driver();
+//        Divide_Intervals_Into_Minimum_Number_of_Groups divideIntervalsIntoMinimumNumberOfGroups = new Divide_Intervals_Into_Minimum_Number_of_Groups();
+//        divideIntervalsIntoMinimumNumberOfGroups.driver();
+
+        Maximal_Score_After_Applying_K_Operations maximalScoreAfterApplyingKOperations = new Maximal_Score_After_Applying_K_Operations();
+        maximalScoreAfterApplyingKOperations.driver();
     }
 }
