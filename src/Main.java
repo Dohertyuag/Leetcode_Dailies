@@ -130,7 +130,10 @@ public class Main {
 //        Divide_Intervals_Into_Minimum_Number_of_Groups divideIntervalsIntoMinimumNumberOfGroups = new Divide_Intervals_Into_Minimum_Number_of_Groups();
 //        divideIntervalsIntoMinimumNumberOfGroups.driver();
 
-        Maximal_Score_After_Applying_K_Operations maximalScoreAfterApplyingKOperations = new Maximal_Score_After_Applying_K_Operations();
-        maximalScoreAfterApplyingKOperations.driver();
+//        Maximal_Score_After_Applying_K_Operations maximalScoreAfterApplyingKOperations = new Maximal_Score_After_Applying_K_Operations();
+//        maximalScoreAfterApplyingKOperations.driver();
+
+        Separate_Black_and_White_Balls separateBlackAndWhiteBalls = new Separate_Black_and_White_Balls();
+        separateBlackAndWhiteBalls.driver();
     }
 }
