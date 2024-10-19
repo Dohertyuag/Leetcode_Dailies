@@ -142,8 +142,11 @@ public class Main {
 //        Maximum_Swap maxSwap = new Maximum_Swap();
 //        maxSwap.driver();
 
-        Count_Number_of_Maximum_Bitwise_OR_Subsets countNumberOfMaximumBitwiseOrSubsets = new Count_Number_of_Maximum_Bitwise_OR_Subsets();
-        countNumberOfMaximumBitwiseOrSubsets.driver();
+//        Count_Number_of_Maximum_Bitwise_OR_Subsets countNumberOfMaximumBitwiseOrSubsets = new Count_Number_of_Maximum_Bitwise_OR_Subsets();
+//        countNumberOfMaximumBitwiseOrSubsets.driver();
+
+        Find_Kth_Bit_in_Nth_Binary_String find = new Find_Kth_Bit_in_Nth_Binary_String();
+        find.driver();
 
 
     }
