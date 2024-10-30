@@ -151,8 +151,11 @@ public class Main {
 //        Split_a_String_Into_the_Max_Number_of_Unique_Substrings splitAStringIntoTheMaxNumberOfUniqueSubstrings = new Split_a_String_Into_the_Max_Number_of_Unique_Substrings();
 //        splitAStringIntoTheMaxNumberOfUniqueSubstrings.driver();
 
-        Maximum_Number_of_Moves_in_a_Grid maximumNumberOfMovesInAGrid = new Maximum_Number_of_Moves_in_a_Grid();
-        maximumNumberOfMovesInAGrid.driver();
+//        Maximum_Number_of_Moves_in_a_Grid maximumNumberOfMovesInAGrid = new Maximum_Number_of_Moves_in_a_Grid();
+//        maximumNumberOfMovesInAGrid.driver();
+
+        Minimum_Number_of_Removals_to_Make_Mountain_Array minimumNumberOfRemovalsToMakeMountainArray = new Minimum_Number_of_Removals_to_Make_Mountain_Array();
+        minimumNumberOfRemovalsToMakeMountainArray.driver();
 
     }
 }
