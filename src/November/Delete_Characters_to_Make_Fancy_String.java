@@ -45,9 +45,9 @@ public class Delete_Characters_to_Make_Fancy_String {
 
         StringBuilder sb = new StringBuilder();
 
-        for(char c : s.toCharArray()) {
+        for (char c : s.toCharArray()) {
             int n = sb.length();
-            if(n < 2 || !(sb.charAt(n-1) == c && sb.charAt(n-2) == c)) {
+            if (n < 2 || !(sb.charAt(n - 1) == c && sb.charAt(n - 2) == c)) {
                 sb.append(c);
             }
         }
