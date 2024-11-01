@@ -43,31 +43,17 @@ public class Delete_Characters_to_Make_Fancy_String {
         System.out.println("String: " + s);
         if (s.length() < 3) return s;
 
-        char[] chars = s.toCharArray();
-        Stack<Character> stack = new Stack<>();
-        int counter = 1;
-        char c = chars[0];
-        stack.push(c);
-
-        for (int i = 1; i < chars.length; i++) {
-            if(chars[i] == stack.peek()){
-                counter++;
-                stack.push(chars[i]);
-                if(counter > 2) stack.pop();
-            }
-            else {
-                stack.push(chars[i]);
-                counter = 1;
-            }
-        }
-        System.out.println(stack);
         StringBuilder sb = new StringBuilder();
 
-        for (int i = 0; i < stack.size(); i++) {
-            sb.append(stack.get(i));
+        for(char c : s.toCharArray()) {
+            int n = sb.length();
+            if(n < 2 || !(sb.charAt(n-1) == c && sb.charAt(n-2) == c)) {
+                sb.append(c);
+            }
         }
 
         return sb.toString();
+
     }
 
     public void driver() {
