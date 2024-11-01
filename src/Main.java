@@ -1,5 +1,8 @@
 //import September.*;
+
+import November.*;
 import October.*;
+
 public class Main {
     public static void main(String[] args) {
 //        ugly_numbers uglyNumbers = new ugly_numbers();
@@ -154,8 +157,11 @@ public class Main {
 //        Maximum_Number_of_Moves_in_a_Grid maximumNumberOfMovesInAGrid = new Maximum_Number_of_Moves_in_a_Grid();
 //        maximumNumberOfMovesInAGrid.driver();
 
-        Minimum_Number_of_Removals_to_Make_Mountain_Array minimumNumberOfRemovalsToMakeMountainArray = new Minimum_Number_of_Removals_to_Make_Mountain_Array();
-        minimumNumberOfRemovalsToMakeMountainArray.driver();
+//        Minimum_Number_of_Removals_to_Make_Mountain_Array minimumNumberOfRemovalsToMakeMountainArray = new Minimum_Number_of_Removals_to_Make_Mountain_Array();
+//        minimumNumberOfRemovalsToMakeMountainArray.driver();
+
+        Delete_Characters_to_Make_Fancy_String deleteCharactersToMakeFancyString = new Delete_Characters_to_Make_Fancy_String();
+        deleteCharactersToMakeFancyString.driver();
 
     }
 }
