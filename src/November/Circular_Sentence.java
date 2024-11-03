@@ -51,18 +51,18 @@ There are no leading or trailing spaces.
 
  */
 public class Circular_Sentence {
-    public boolean isCircularSentence(String s) {
-        String[] words = s.split(" ");
+    public boolean isCircularSentence(String sentence) {
+        if(sentence.charAt(0) != sentence.charAt(sentence.length()-1)) return false;
+        int k = sentence.indexOf(" ");
+        if(k < 0) return true;  //no spaces, means that only one word in sentence
 
-        char last = words[0].charAt(words[0].length() - 1);
-        for (int i = 1; i < words.length; i++) {
-            if (words[i].charAt(0) != last) {
+        while(k != -1){
+            if(sentence.charAt(k+1) != sentence.charAt(k - 1)){
                 return false;
             }
-            last = words[i].charAt(words[i].length() - 1);
+            k = sentence.indexOf(" ", k+1);
         }
-        if (words[0].charAt(0) != last)
-            return false;
+
         return true;
     }
 
