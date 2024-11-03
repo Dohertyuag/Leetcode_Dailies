@@ -163,7 +163,10 @@ public class Main {
 //        Delete_Characters_to_Make_Fancy_String deleteCharactersToMakeFancyString = new Delete_Characters_to_Make_Fancy_String();
 //        deleteCharactersToMakeFancyString.driver();
 
-        Circular_Sentence sentence = new Circular_Sentence();
-        sentence.driver();
+//        Circular_Sentence sentence = new Circular_Sentence();
+//        sentence.driver();
+
+        Rotate_String rotateString = new Rotate_String();
+        rotateString.driver();
     }
 }
