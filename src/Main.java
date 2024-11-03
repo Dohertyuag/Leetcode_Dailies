@@ -160,8 +160,10 @@ public class Main {
 //        Minimum_Number_of_Removals_to_Make_Mountain_Array minimumNumberOfRemovalsToMakeMountainArray = new Minimum_Number_of_Removals_to_Make_Mountain_Array();
 //        minimumNumberOfRemovalsToMakeMountainArray.driver();
 
-        Delete_Characters_to_Make_Fancy_String deleteCharactersToMakeFancyString = new Delete_Characters_to_Make_Fancy_String();
-        deleteCharactersToMakeFancyString.driver();
+//        Delete_Characters_to_Make_Fancy_String deleteCharactersToMakeFancyString = new Delete_Characters_to_Make_Fancy_String();
+//        deleteCharactersToMakeFancyString.driver();
 
+        Circular_Sentence sentence = new Circular_Sentence();
+        sentence.driver();
     }
 }
