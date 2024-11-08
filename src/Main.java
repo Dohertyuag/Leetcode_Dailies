@@ -169,8 +169,11 @@ public class Main {
 //        Rotate_String rotateString = new Rotate_String();
 //        rotateString.driver();
 
-        Largest_Combination_With_Bitwise_AND_Greater_Than_Zero largestCombinationWithBitwiseAndGreaterThanZero = new Largest_Combination_With_Bitwise_AND_Greater_Than_Zero();
-        largestCombinationWithBitwiseAndGreaterThanZero.driver();
+//        Largest_Combination_With_Bitwise_AND_Greater_Than_Zero largestCombinationWithBitwiseAndGreaterThanZero = new Largest_Combination_With_Bitwise_AND_Greater_Than_Zero();
+//        largestCombinationWithBitwiseAndGreaterThanZero.driver();
+
+        Maximum_XOR_for_Each_Query maximumXorForEachQuery = new Maximum_XOR_for_Each_Query();
+        maximumXorForEachQuery.driver();
 
     }
 }
