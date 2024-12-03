@@ -1,5 +1,6 @@
 //import September.*;
 
+import December.Adding_Spaces_to_a_String;
 import November.*;
 import October.*;
 
@@ -172,8 +173,10 @@ public class Main {
 //        Largest_Combination_With_Bitwise_AND_Greater_Than_Zero largestCombinationWithBitwiseAndGreaterThanZero = new Largest_Combination_With_Bitwise_AND_Greater_Than_Zero();
 //        largestCombinationWithBitwiseAndGreaterThanZero.driver();
 
-        Maximum_XOR_for_Each_Query maximumXorForEachQuery = new Maximum_XOR_for_Each_Query();
-        maximumXorForEachQuery.driver();
+//        Maximum_XOR_for_Each_Query maximumXorForEachQuery = new Maximum_XOR_for_Each_Query();
+//        maximumXorForEachQuery.driver();
 
+        Adding_Spaces_to_a_String adding_spaces_to_a_string = new Adding_Spaces_to_a_String();
+        adding_spaces_to_a_string.driver();
     }
 }
